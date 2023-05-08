@@ -45,6 +45,8 @@ new_workbook.save('output.xls')
 # If we use this library,
 # openpyxl
 # We can greatly improve the length of the operation
+# We no longer have to open the workbook twice
+# (Once to read, Once to write)
 import openpyxl
 
 # Open the Excel workbook
